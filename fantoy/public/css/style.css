@@ -1,0 +1,28 @@
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+i:link{
+    text-decoration: none;
+}
+
+#mktColor{
+    color: purple;
+    font-weight: bold;
+}
+
+.text-ellipse{
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
